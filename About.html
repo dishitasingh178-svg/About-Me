@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishita Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pink: #E893A8;
+            --pink-dark: #C15D77;
+            --ink: #2E2430;
+            --muted: #7A6B72;
+            --bg: #FBF1F0;
+            --card: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            margin: 0;
+            line-height: 1.7;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 3rem auto;
+            background: var(--card);
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(193, 93, 119, 0.15);
+            overflow: hidden;
+            /* clearfix for floated image */
+        }
+
+        .header {
+            background: var(--pink-dark);
+            padding: 2.5rem 2rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.85);
+            margin: 0.4rem 0 0;
+            font-size: 0.95rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .content {
+            padding: 2rem 2.5rem 2.5rem;
+        }
+
+        .content img {
+            width: 220px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            float: left;
+            margin: 0 1.75rem 1rem 0;
+        }
+
+        .content p {
+            font-size: 1rem;
+            color: var(--ink);
+        }
+
+        h2 {
+            color: var(--pink-dark);
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--pink);
+            display: inline-block;
+            padding-bottom: 0.2rem;
+            margin: 2rem 0 1rem;
+            clear: left;
+        }
+
+        .content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 0.6rem;
+        }
+
+        .content ul li {
+            background: var(--bg);
+            border-left: 3px solid var(--pink);
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+        }
+
+        .contact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            max-width: 320px;
+        }
+
+        .contact-list a {
+            display: block;
+            text-decoration: none;
+            color: var(--pink-dark);
+            background: var(--bg);
+            padding: 0.65rem 1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        .contact-list a:hover {
+            background: var(--pink-dark);
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .content img {
+                float: none;
+                width: 100%;
+                height: 260px;
+                margin: 0 0 1rem;
+            }
+
+            h2 {
+                clear: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Dishita Singh</h1>
+            <p>B.Tech, Information Technology &middot; BPIT</p>
+        </div>
+
+        <div class="content">
+
+            <img src="WhatsApp Image 2026-07-01 at 01.52.32 (1).jpeg" alt="Dishita Singh">
+
+            <p>I am Dishita Singh, a B.Tech student in Information Technology at BPIT (Bhagwan Parshuram Institute of
+                Technology). I am passionate about technology and enjoy exploring new concepts, solving problems, and
+                continuously expanding my knowledge.</p>
+
+            <p>I am currently learning full-stack web development while strengthening my programming skills in C and
+                C++. Alongside academics, I actively work on personal projects to improve my understanding of front-end
+                development, version control using Git and GitHub, and problem-solving techniques.</p>
+
+            <p>I have a keen interest in building user-friendly and responsive websites, writing clean and efficient
+                code, and learning modern development tools and technologies. I enjoy taking on new challenges that help
+                me grow both technically and creatively.</p>
+
+            <p>I believe in continuous learning, consistency, and self-improvement. My goal is to become a skilled
+                software developer, contribute to impactful projects, and keep exploring emerging fields in technology
+                such as Artificial Intelligence and software engineering.</p>
+
+            <h2>Education</h2>
+            <ul>
+                <li>Currently pursuing B.Tech in Information Technology from BPIT (IPU)</li>
+                <li>Completed schooling from Laxman Public School, New Delhi</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Learning web development</li>
+                <li>Learning C++ and Python</li>
+                <li>Basics of data structures and algorithms</li>
+            </ul>
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading books</li>
+                <li>Playing sports</li>
+                <li>Drawing</li>
+                <li>Watching movies</li>
+                <li>Listening to music</li>
+            </ul>
+
+            <h2>Goals</h2>
+            <ul>
+                <li>To become a military officer</li>
+                <li>To travel the world</li>
+                <li>To learn new things</li>
+                <li>To make my parents proud</li>
+            </ul>
+
+            <h2>Contact</h2>
+            <div class="contact-list">
+                <a href="https://www.instagram.com/dishita_singh_/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/dishita-singh-1b0b4b1b6/" target="_blank">LinkedIn</a>
+                <a href="mailto:dishitasingh178@gmail.com">dishitasingh178@gmail.com</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
